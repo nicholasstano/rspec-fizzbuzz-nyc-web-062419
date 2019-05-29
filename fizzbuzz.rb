@@ -5,7 +5,7 @@ def fizzbuzz(n)
     return "Fizzbuzz"
   elsif (n % 3 == 0)
     return "Fizz"
-  elsif (n % 5)
+  elsif (n % 5 == 0)
     return "Buzz"
   else
     return "nil"
