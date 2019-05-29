@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(n)
   if ((n % 3) && (n % 5))
-    return "fizzbuzz"
+    return "Fizzbuzz"
   elsif (n % 3)
-    return "fizz"
+    return "Fizz"
   elsif (n % 5)
-    return "buzz"
+    return "Buzz"
   else
     return "nil"
   end
