@@ -3,9 +3,9 @@
 def fizzbuzz(n)
   if ((n % 3) && (n % 5))
     return "fizzbuzz"
-  elsif (n % 3) 
+  elsif (n % 3)
     return "fizz"
-  elsif (n % 5) 
-    return "buzz" 
-  else 
+  elsif (n % 5)
+    return "buzz"
+  else
     return "nil"
